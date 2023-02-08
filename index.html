@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <base href="/Play_Max.github.io/"> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./Play_Max.github.io/Images/favicon.ico">
+    <title>Home | Arcade Misfits</title>
+    <link rel="stylesheet" href="./Play_Max.github.io/css/loader.css">
+    <link rel="stylesheet" href="./Play_Max.github.io/css/home.css">
+    <link rel="stylesheet" href="./Play_Max.github.io/css/gameSection.css">
+    <link rel="stylesheet" href="./Play_Max.github.io/css/gameSectionMediaQuery.css">
+    <link rel="stylesheet" href="./Play_Max.github.io/css/blogSection.css">
+    <script src="https://kit.fontawesome.com/c476974dbd.js" crossorigin="anonymous"></script>
+</head>
+<body id="body">
+    <div id="loader">
+        <span class="back">
+            <span>L</span>
+            <span>o</span>
+            <span>a</span>
+            <span>d</span>
+            <span>i</span>
+            <span>n</span>
+            <span>g</span>
+        </span>
+    </div>
+    <script src="/Play_Max.github.io/src/loader.js"></script>
+
+    <!-- Back to Top Button Start -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-solid fa-angle-up"></i></button>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 690px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 690 || document.documentElement.scrollTop > 690) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- Back to Top Button End -->
+
+    <section class="home-section">
+        <div class="home-section-container">
+            <div id="home-section-top">
+                <div class="top-1">
+                    <div class="top-2">
+                        <!-- logo (packman) -->
+                        <img id="logo" src="/Play_Max.github.io/Images/logo.png">
+                        <!-- logo-text -->
+                        <h1 id="logo-text">ARCADE MISFITS</h1>
+                    </div>
+                    <div class="top-3">
+                        <button class="hamburger" id="hamburger">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <ul id="nav-ul">
+                            <li><a class="active" href="#">Home</a></li>
+                            <li><a href="/Play_Max.github.io/pages/gamePage.html">Games</a></li>
+                            <li><a href="/Play_Max.github.io/pages/blogPage.html">Blogs</a></li>
+                            <li><a href="/Play_Max.github.io/pages/out_team.html">Our Team</a></li>
+                            <li><a href="/Play_Max.github.io/pages/contact-us.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="mobile">
+                <ul id="nav-ul-mobile">
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="/Play_Max.github.io/pages/gamePage.html">Games</a></li>
+                    <li><a href="/Play_Max.github.io/pages/blogPage.html">Blogs</a></li>
+                    <li><a href="/Play_Max.github.io/pages/out_team.html">Our Team</a></li>
+                    <li><a href="/Play_Max.github.io/pages/contact-us.html">Contact Us</a></li>
+                    <button id="close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </ul>
+            </div>
+            <script src="/Play_Max.github.io/src/home.js"></script>
+            <div id="home-section-middle">
+                <div class="mid-1" style="text-align: center;">
+                    <!-- Are You Ready TEXT -->
+                    <h1 id="T1">Playing is</h1>
+                    <h1 id="T2">believing!!!</h1>
+                </div>
+                <div class="mid-2">
+                    <!-- SVG IMAGE -->
+                    <img src="/Play_Max.github.io/Images/gamepad.svg">
+                </div>
+            </div>
+            <div id="home-section-bottom">
+                <!-- Image Bottom Arrow "->" -->
+                <a href="#gameSection">
+                    <img id="bot-arrow" src="/Play_Max.github.io/Images/home-arrow.png">
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- gaming section start by Ishaan Bhalla -->
+    <section class="gameSection">
+        <div class="gameSectionUpperImage"></div>
+        <div id="gameSection" class="homeGameSection">
+            <div class="heading">
+                <a href="/Play_Max.github.io/pages/gamePage.html">
+                    <div class="icon">
+                        <img class="consoleIcon" src="/Play_Max.github.io/Images/Section_GamePad_image.png">
+                    </div>
+                </a>
+                <a href="/Play_Max.github.io/pages/gamePage.html"><div class="headingText">GAMES</div></a>
+            </div>
+            <div class="games">
+                <a href="/Play_Max.github.io/Games/Flappy Bird/Flappy Bird Page/flappyBirdPage.html">
+                    <div class="gameCard">
+                        <img class="gameImage" src="/Play_Max.github.io/Images/unknown.png">
+                        <div class="gameName">Flappy Bird</div>
+                    </div>
+                </a>
+                <a href="/Play_Max.github.io/Games/PacMan/Pacman Page/pacmanPage.html">
+                    <div class="gameCard">
+                        <img class="gameImage" src="/Play_Max.github.io/Images/pacman.png">
+                        <div class="gameName">Pac-Man</div>
+                    </div>
+                </a>
+                <a href="/Play_Max.github.io/Games/Brick Breaker/Brick Breaker Page/brickBreakerPage.html">
+                    <div class="gameCard">
+                        <img class="gameImage" src="/Play_Max.github.io/Games/Brick Breaker/brickbreaker.png">
+                        <div class="gameName">Brick Breaker</div>
+                    </div>
+                </a>
+                <a href="/Play_Max.github.io/Games/Snake/Snake Page/snakePage.html">
+                    <div class="gameCard">
+                        <img class="gameImage" src="/Play_Max.github.io/Games/Snake/snake.png">
+                        <div class="gameName">Snake</div>
+                    </div>
+                </a>
+                <a href="/Play_Max.github.io/Games/Tetris/Tetris Page/tetrisPage.html">
+                    <div class="gameCard">
+                        <img class="gameImage tetrisImage" src="/Play_Max.github.io/Games/Tetris/tetris.png">
+                        <div class="gameName tetrisName">Tetris</div>
+                    </div>
+                </a>
+                <a href="/Play_Max.github.io/Games/Space Invaders/Space Invader Page/spaceInvaderPage.html">
+                    <div class="gameCard">
+                        <img class="gameImage" src="/Play_Max.github.io/Images/pngwing.com.png">
+                        <div class="gameName">Space Invaders</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="gameSectionLowerImage"></div>
+    </section>
+    <!-- gaming section end -->
+    <!-- Blog Section start by Ishaan Bhalla -->
+    <section class="blogSection">
+        <div class="upperImage"></div>
+        <div id="blogSection" class="homeBlogSection">
+            <div class="heading">
+                <a href="/Play_Max.github.io/pages/blogPage.html">
+                    <div class="icon">
+                        <img class="consoleIcon" src="/Play_Max.github.io/Images/Section_GamePad_image.png">
+                    </div>
+                </a>
+                <a href="/Play_Max.github.io/pages/blogPage.html"><div class="headingText">BLOGS</div></a>
+            </div>
+            <div class="blogs">
+                <a href="/Play_Max.github.io/blogPages/blog1Page.html">
+                    <div class="blogCard">
+                        <div class="blogName">Fortnite Players Have Now Raised Over $70 Million For Ukraine</div>
+                        <div class="blogCardContent">
+                            <img class="blogImage" src="/Play_Max.github.io/blogPages/blog1Img1.webp">
+                            <div class="blogTextAndReadMore">
+                                <div class="blogText">Fortnite continues to provide millions of dollars in immediate aid for Ukraine. The latest update from Epic is big, announcing that as of March 25 it has raised over $70 million in aid for charities and groups supporting Ukrainians during the ongoing and horrific Russian invasion of the country.</div>
+                                <div class="readMore"><em><strong>Read More Here</strong></em></div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/Play_Max.github.io/blogPages/blog2Page.html">
+                    <div class="blogCard">
+                        <div class="blogName">Modder Adds Elden Ring's Message System To Fallout: New Vegas</div>
+                        <div class="blogCardContent">
+                            <img class="blogImage" src="/Play_Max.github.io/blogPages/blog2Img1.webp">
+                            <div class="blogTextAndReadMore">
+                                <div class="blogText">One of the coolest parts of Elden Ring is the ability to leave messages for other players in the game’s large open-world environment. You can warn folks of enemies, hint towards a treasure, or troll people with silly jokes or lies. And now someone has added this feature into Fallout New Vegas via a mod for the PC version of the game.</div>
+                                <div class="readMore"><em><strong>Read More Here</strong></em></div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/Play_Max.github.io/blogPages/blog3Page.html">
+                    <div class="blogCard">
+                        <div class="blogName">Breath Of The Wild Actually Has Four Beedles, And You Can Get Them All Together</div>
+                        <div class="blogCardContent">
+                            <img class="blogImage" src="/Play_Max.github.io/blogPages/blog3Img1.webp">
+                            <div class="blogTextAndReadMore">
+                                <div class="blogText">Beedle, the friendly travelling merchant from The Legend Of Zelda: Breath of the Wild, sure does get around, managing to cover almost every corner of the map during your adventures. Turns out he’s got a secret to his breadth of coverage: there are more than one of them.</div>
+                                <div class="readMore"><em><strong>Read More Here</strong></em></div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/Play_Max.github.io/blogPages/blog4Page.html">
+                    <div class="blogCard">
+                        <div class="blogName">Among Us Servers Have Been Down For Over 48 Hours Due To DDoS Attack</div>
+                        <div class="blogCardContent">
+                            <img class="blogImage" src="/Play_Max.github.io/blogPages/blog4Img1.webp">
+                            <div class="blogTextAndReadMore">
+                                <div class="blogText">Popular online indie sneak-and-stab simulator Among Us is currently facing an ongoing DDoS (distributed denial of service) attack. According to Among Us developers Innersloth, the game has been offline in both North America and Europe for over two days due to the attack.</div>
+                                <div class="readMore"><em><strong>Read More Here</strong></em></div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="lowerImage"></div>
+    </section>
+    <!-- Blog section end -->
+    <section class="footer-section">
+        <div class="footer-section-container">
+            <div class="footer-main">
+                <h1 class="footer-heading"> Let's Connect!</h1>
+                <div class="footer-mid">
+                    <input type="text" placeholder="" class="footer-text-field" id="home-email-field">
+                    <button class="sumbit" id="submit">
+                        SUBMIT
+                    </button>
+                </div>
+                <script src="/Play_Max.github.io/src/submit_home_btn.js"></script>
+                <label for="social-links" class="social-links">Social Media</label>
+                <div class="s-icons">
+                    <a class="f" href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                    <a class="i" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                    <a class="y" href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                    <a class="t" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="text-dis" style="font-family: Roboto, sans-serif ; color: white;">
+                    We made this website for Hackathon Project.
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
