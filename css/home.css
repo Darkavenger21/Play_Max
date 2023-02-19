@@ -24,7 +24,7 @@ body{
 .home-section{
     display: flex;
     justify-content: space-around;
-    background-image: url('/Images/header_wave.png');
+    background-image: url('./Images/header_wave.png');
     background-size: 100vw clamp(36vw,46vw,60vw);
     background-repeat: no-repeat;
 }
