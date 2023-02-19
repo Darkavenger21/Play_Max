@@ -5,23 +5,23 @@
 }
 @font-face {
     font-family:'Forte';
-    src: url('/Play_Max/Fonts/FORTE.TTF');
+    src: url('/Fonts/FORTE.TTF');
 }
 @font-face {
     font-family:'Helvetica';
-    src: url('/Play_Max/Fonts/Helvetica.ttf');
+    src: url('/Fonts/Helvetica.ttf');
 }
 @font-face {
     font-family:'Maldini';
-    src: url('/Play_Max/Fonts/MALDINI-NORMAL.otf');
+    src: url('/Fonts/MALDINI-NORMAL.otf');
 }
 @font-face {
     font-family:'Minecraft';
-    src: url('/Play_Max/Fonts/Minecraft.ttf');
+    src: url('/Fonts/Minecraft.ttf');
 }
 @font-face {
     font-family:'Roboto';
-    src: url('/Play_Max/Fonts/Roboto-Regular.ttf');
+    src: url('/Fonts/Roboto-Regular.ttf');
 }
 
 *{
@@ -37,7 +37,7 @@ a{
 body{
     color: white;
     font-family: "Roboto", sans-serif;
-    background-image: url(/Play_Max/Games/Flappy\ Bird/flappy\ bird\ bg.webp);
+    background-image: url(/Games/Flappy\ Bird/flappy\ bird\ bg.webp);
     min-height: 100vh;
     height: fit-content;
     width: 100vw;

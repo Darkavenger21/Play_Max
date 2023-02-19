@@ -1,27 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 @font-face {
     font-family:'Aero';
-    src: url('/Play_Max/Fonts/Aero.ttf');
+    src: url('/Fonts/Aero.ttf');
 }
 @font-face {
     font-family:'Forte';
-    src: url('/Play_Max/Fonts/FORTE.TTF');
+    src: url('/Fonts/FORTE.TTF');
 }
 @font-face {
     font-family:'Helvetica';
-    src: url('/Play_Max/Fonts/Helvetica.ttf');
+    src: url('/Fonts/Helvetica.ttf');
 }
 @font-face {
     font-family:'Maldini';
-    src: url('/Play_Max/Fonts/MALDINI-NORMAL.otf');
+    src: url('/Fonts/MALDINI-NORMAL.otf');
 }
 @font-face {
     font-family:'Minecraft';
-    src: url('/Play_Max/Fonts/Minecraft.ttf');
+    src: url('/Fonts/Minecraft.ttf');
 }
 @font-face {
     font-family:'Roboto';
-    src: url('/Play_Max/Fonts/Roboto-Regular.ttf');
+    src: url('/Fonts/Roboto-Regular.ttf');
 }
 
 *{
@@ -42,7 +42,7 @@ body{
     justify-content: center;
     align-content: center;
     align-items: center;
-    background-image: url(/Play_Max/Games/PacMan/pacman\ bg.jpg);
+    background-image: url(/Games/PacMan/pacman\ bg.jpg);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
     backdrop-filter: brightness(40%) blur(1.6rem) contrast(90%);  

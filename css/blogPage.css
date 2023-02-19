@@ -1,27 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 @font-face {
     font-family:'Aero';
-    src: url('/Play_Max.github.io/Fonts/Aero.ttf');
+    src: url('/Fonts/Aero.ttf');
 }
 @font-face {
     font-family:'Forte';
-    src: url('/Play_Max.github.io/Fonts/FORTE.TTF');
+    src: url('/Fonts/FORTE.TTF');
 }
 @font-face {
     font-family:'Helvetica';
-    src: url('/Play_Max.github.io/Fonts/Helvetica.ttf');
+    src: url('/Fonts/Helvetica.ttf');
 }
 @font-face {
     font-family:'Maldini';
-    src: url('/Play_Max.github.io/Fonts/MALDINI-NORMAL.otf');
+    src: url('/Fonts/MALDINI-NORMAL.otf');
 }
 @font-face {
     font-family:'Minecraft';
-    src: url('/Play_Max.github.io/Fonts/Minecraft.ttf');
+    src: url('/Fonts/Minecraft.ttf');
 }
 @font-face {
     font-family:'Roboto';
-    src: url('/Play_Max.github.io/Fonts/Roboto-Regular.ttf');
+    src: url('/Fonts/Roboto-Regular.ttf');
 }
 
 *{
@@ -133,7 +133,7 @@ a{
 }
 
 .blogPageLowerImage{
-    background-image: url('/Play_Max.github.io/Images/blogdown.png');
+    background-image: url('/Images/blogdown.png');
     background-repeat: no-repeat;
     background-size: 100vw;
     height: 40vh; 
@@ -217,7 +217,7 @@ a{
     }
 
     .blogPageUpperImage{
-        background-image: url('/Play_Max.github.io/Images/blogup.png');
+        background-image: url('/Images/blogup.png');
         background-repeat: round;
         background-size: 100vw;
         height: 25vh; 
